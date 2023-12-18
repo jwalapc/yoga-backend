@@ -14,10 +14,10 @@ app.use(bodyParser.json());
 
 // Create a MySQL connection
 const db = mysql.createConnection({
-  host: process.env.HOST,
-  user: process.env.USER,
-  password: process.env.PASSWORD,
-  database: process.env.DATABASE,
+  host: 'sql12.freesqldatabase.com', // Change this to your MySQL host
+  user: 'sql12671147',      // Change this to your MySQL username
+  password: 'vnc2TZ1T4f',      // Change this to your MySQL password
+  database: 'sql12671147',
 });
 
 

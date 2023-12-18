@@ -14,10 +14,10 @@ app.use(bodyParser.json());
 
 // Create a MySQL connection
 const db = mysql.createConnection({
-  host: 'localhost', // Change this to your MySQL host
-  user: 'root',      // Change this to your MySQL username
-  password: '',      // Change this to your MySQL password
-  database: 'yoga_admission',
+  host: 'sql12.freesqldatabase.com', // Change this to your MySQL host
+  user: 'sql12671147',      // Change this to your MySQL username
+  password: 'vnc2TZ1T4f',      // Change this to your MySQL password
+  database: 'sql12671147',
 });
 
 // Connect to MySQL
